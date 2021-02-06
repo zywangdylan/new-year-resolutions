@@ -1,0 +1,38 @@
+/* Cards and containers media queries */
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .container h2{
+    text-align: center;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card-white {
+    width: 90%;
+  }
+}
+
+@media (min-width: 600px) {
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 950px) {
+  .container {
+    width: 850px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    width: 1000px;
+    margin: auto;
+  }
+}
